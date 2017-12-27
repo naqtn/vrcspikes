@@ -1,36 +1,24 @@
 <html>
-<head>
+  <head>
     <style type="text/css">
-html {
-  font-size: 10px;
-}
+      html {
+      font-size: 10px;
+      }
 
-td {
-  font-size: 10px;
-}
+      td {
+      font-size: 10px;
+      }
 
     </style>
-</head>
-<body>
+  </head>
+  <body>
     Hello VRC scripts.
-</body>
-</html>
-<script>
-    function OnReadyForJavascript(evt) {
-        var funcsPromise = engine.call("ListBindings");
-        funcsPromise.success(function (funs) {
-            var table = document.createElement("table");
-            funs.forEach(function (func) {
-                var row = document.createElement("tr");
-                table.appendChild(row);
-                var col = document.createElement("td");
-                col.innerHTML = func;
-                row.appendChild(col);
-            });
-            document.body.appendChild(table);
-        });
-    }
+  </body>
 
-    // Now listen for it
-    document.addEventListener('onBindingsReady', OnReadyForJavascript, false);
+  <script src="script-spike.js"></script>
+<script>
+  //    document.addEventListener('onBindingsReady', OnReadyForJavascript, false);
+  peekObject(engine);
 </script>
+
+</html>
