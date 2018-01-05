@@ -82,8 +82,8 @@ function insertWorldTable(worldList) {
 }
 
 function testBtnOnClick() {
-    debugMsg("--testBtnOnClick--");
-    GoToRoom("wrld_7231c4b3-ffbc-49a6-a7f9-77e876674d05");
+    debugMsg("testBtnOnClick");
+    GoToRoom("wrld_48cf80e6-15dd-4c17-8667-c5dc01baa5cb");
 }
 
 function OnDOMContentLoaded() {
