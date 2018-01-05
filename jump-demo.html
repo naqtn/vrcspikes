@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style type="text/css">
+      html {
+      font-size: 24px;
+      }
+      body {
+      background-color: lemonchiffon;
+      }
+      td {
+      font-size: 24px;
+      }
+      .worldEntry {
+      font-size: 30px;
+      border-width:5px;
+      border-style:double;
+      border-color:#adc196;
+      border-radius: 20px;
+      padding: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="developerDiv" style="display:none" >
+      <!-- TODO refine CSS -->
+      <div style="width:100%; ">
+	<input type="button" value="Reload this page" id="reloadBtn">
+	URL:
+	<input type="text" disabled="true" id="urlTxt" style="width:70%;" value="----------">
+      </div>
+      {Developer: <input type="button" value="test" id="testBtn">[<pre id="dbgmsg">//////</pre>]}
+      <hr>
+    </div>
+
+    <h1>VRChat World Jump Demo</h1>
+    <div id="message">Preparing... </div>
+    <hr>
+
+    <div id="container"></div>
+
+  </body>
+
+  <script src="jump-demo.js"></script>
+
+</html>
