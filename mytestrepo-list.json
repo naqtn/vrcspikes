@@ -1,0 +1,48 @@
+{
+  "name": "Mytestrepo",
+  "author": "naqtntn@gmail.com",
+  "url": "https://naqtn.github.io/vrcspikes/mytestrepo-list.json",
+  "packages": {
+    "com.vrchat.clientsimA": {
+      "versions": {
+        "1.2.2": {
+          "name": "com.vrchat.clientsimA",
+          "displayName": "VRChat Client Simulator A",
+          "version": "1.2.2",
+          "unity": "2019.4",
+          "description": "VRChat Client Simulator for testing SDK3 worlds in Unity.",
+          "dependencies": {
+            "com.unity.xr.oculus.standalone": "2.38.4",
+            "com.unity.inputsystem": "1.2.0"
+          },
+          "vpmDependencies": {
+            "com.vrchat.worlds": "3.1.x"
+          },
+          "samples": [
+            {
+              "displayName": "ClientSimWorldTestExample",
+              "description": "An example of a world test using the Test Framework included in ClientSim. Automate interactions in your world and verify the results. Currently requires knowledge of C# and Unity Testing.",
+              "path": "Samples~/ClientSimWorldTestExample"
+            },
+            {
+              "displayName": "ClientSimSelfTests",
+              "description": "Tests to ensure ClientSim works as expected. Includes: Respawn test.",
+              "path": "Samples~/ClientSimSelfTests"
+            }
+          ],
+          "author": {
+            "name": "VRChat",
+            "email": "developer@vrchat.com",
+            "url": "https://github.com/vrchat-community/ClientSim"
+          },
+          "hideInEditor": true,
+          "url": "https://vpm.directus.app/assets/2ac72870-1395-4a17-ad54-55354c3e3363?download",
+          "repo": "https://vpm.directus.app/assets/53e9594f-1773-4bac-9c0f-81be5980bac9?download",
+          "legacyFolders": {
+            "Assets\\CyanEmu": "91b9a83a129504741a363d9a324de958"
+          }
+        }
+      }
+    }
+  }
+}
